@@ -1,25 +1,23 @@
 import React from 'react'
-import { motion } from 'framer-motion'
 import ResumeCard from './ResumeCard'
+import { motion } from 'framer-motion'
 
 const Experience = () => {
   return (
-    <motion.div 
-    initial={{opacity:0}} 
-    animate={{opacity:1, transition:{duration: 0.5}}}
-    
-    className="py-12 font-titleFont flex gap-20"
-  >
-  <div>
-  <div className="flex flex-col gap-4">
-    <p className="text-sm text-designColor tracking-[4px]">
-      2021 - 2023
-      </p>
-    <h2 className="text-4x1 font-bold">Job Experience</h2>
-  </div>
-  <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black
-  border-opacity-30 flex flex-col gap-10">
-    <ResumeCard
+    <motion.div initial={{opacity:0}} 
+    animate={{opacity:1, transition:{duration:.5}}} 
+    className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20">
+      {/* part one */}
+    <div>
+    <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+      <p className="text-sm text-designColor tracking-[4px]">
+        2021 - 2023
+        </p>
+      <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+    </div>
+    <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black
+    border-opacity-30 flex flex-col gap-10">
+       <ResumeCard
       title="Front-end Developer"
       subTitle="Story bay(2022 - 2023)"
       result="Nigeria"
@@ -40,18 +38,19 @@ const Experience = () => {
       des="Fadat is a graphics design company that products different designs
       and also train people to become great designers." 
       />
-  </div>
-  </div>
-  <div>
-  <div className="flex flex-col gap-4">
-    <p className="text-sm text-designColor tracking-[4px]">
+    </div>
+    </div>
+     {/* part two */}
+    <div>
+    <div className=" py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
+      <p className="text-sm text-designColor tracking-[4px]">
       2015 - 2020
-      </p>
-    <h2 className="text-4x1 font-bold">Trainer Experience</h2>
-  </div>
-  <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black
-  border-opacity-30 flex flex-col gap-10">
-       <ResumeCard
+        </p>
+      <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
+    </div>
+    <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black
+    border-opacity-30 flex flex-col gap-10">
+         <ResumeCard
     title="Gym Instructor"
     subTitle="Rainbow Gym Center(2018 - 2020)"
     result="Lagos"
@@ -73,9 +72,9 @@ const Experience = () => {
     des="Fadat is a graphics design company that products different designs
     and also train people to become great designers." 
     />
-  </div>
-  </div>
-  </motion.div>
+    </div>
+    </div>
+    </motion.div>
   )
 }
 
