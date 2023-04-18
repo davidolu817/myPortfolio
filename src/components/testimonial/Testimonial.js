@@ -189,9 +189,9 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    David is an awesome man, with the ambition to do great to
-                    the company. He had been one of the most greatest guy
-                    semicolon had ever produces.
+                    David is an awesome man, with the ambition to build
+                    the company, communicated with network personnel and Web site hosted agencies 
+                    to address hardware and software issues affecting Web sites.
                   </p>
                 </div>
               </div>

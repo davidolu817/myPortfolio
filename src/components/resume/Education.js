@@ -20,7 +20,7 @@ const Education = () => {
       <ResumeCard
       title="BSc In International Relations & Diplomatic Studies"
       subTitle="National Open University Of Nigeria (2019 - 2023)"
-      result="3.90/4"
+      result="3.70/4"
       des="The training provided by universities in order to prepare people to work
       in various sector of the econpmy or areas of culture."
       />
@@ -33,7 +33,7 @@ const Education = () => {
       />
       <ResumeCard
       title="Primary and Junior Secondary School Education"
-      subTitle="Mercytrack Primary School & Mobolaji Junior High School (2003 - 2015)"
+      subTitle="Mercytrack Primary School & Mobolaji Junior High School (2005 - 2015)"
       result="5.00/5"
       des="Primary education and Junior Secondary education covers two phases on the
       International Standard Classification of Education scale." 

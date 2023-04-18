@@ -31,9 +31,8 @@ const LeftBanner = () => {
             /> 
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide">
-            I use animation as a third dimension by which to simplify
-            experiences and building thro each and every interaction. I'm not
-            adding motion just to spruce things up.
+          As a front-end engineer, my main responsibility is to ensure 
+          that the user interface of a website or application runs seamlessly. 
           </p>
         </div>
         <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

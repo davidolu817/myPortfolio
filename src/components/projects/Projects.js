@@ -19,38 +19,38 @@ const Projects = () => {
        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
         <ProjectsCard
         title ="NETFLIX CLONE"
-        des="Lorem, ipsum dolor sit amet consectetur adipisising elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        des="Netflix clone refers to a website, application or platform that replicates 
+        the popular streaming service, Netflix."
         src={projectOne}
         />
         <ProjectsCard
         title ="Caculator App"
-        des="Lorem, ipsum dolor sit amet consectetur adipisising elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        des="A calculator is an electronic device or tool that performs mathematical operations such as addition, 
+        subtraction, multiplication, and division."
         src={projectTwo}
         />
         <ProjectsCard
         title ="Todo-List App"
-        des="Lorem, ipsum dolor sit amet consectetur adipisising elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        des="This app is designed to help you organize your tasks
+        and schedule efficiently."
         src={projectThree}
         />
         <ProjectsCard
         title ="Quiz App"
-        des="Lorem, ipsum dolor sit amet consectetur adipisising elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        des="A quiz app is a mobile application that allows users to answer questions 
+        on various topics and test their knowledge."
         src={projectFour}
         />
         <ProjectsCard
         title ="Expense Tracker"
-        des="Lorem, ipsum dolor sit amet consectetur adipisising elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        des="Expense tracker is a tool or application that 
+        helps individuals track, manage and monitor their expenses."
         src={projectFive}
         />
         <ProjectsCard
         title ="Photo App"
-        des="Lorem, ipsum dolor sit amet consectetur adipisising elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        des="A photo app is a mobile application that allows users to take photos, 
+        edit them, and share them with others."
         src={projectSix}
         />
        </div>

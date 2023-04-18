@@ -29,13 +29,16 @@ const Achievement = () => {
       title="Web Developer & Trainee"
       subTitle="Semicolon(2021- 2022)"
       result="Nigeria"
-      des="."
+      des="Building of apps and website and developing the quality,
+       functionality, and usability of the websites created."
       />
        <ResumeCard
       title="Graphic Designer"
       subTitle="Fadat(2019 - 2021)"
       result="Nigeria"
-      des="." 
+      des="creating visually stunning designs, being recognized by industry peers for my work,
+      winning awards for my designs, successfully completing complex projects on time and within budget, 
+      building a reputable brand, and effectively communicating a clients message through my design work." 
       />
     </div>
     </div>
